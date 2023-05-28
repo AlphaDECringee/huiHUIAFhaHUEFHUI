@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/Users/Admin/Desktop/MCStore.appinstaller"
+	Version="0.1.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="dc19c392-3f11-4d26-81c3-58359eb6d581"
+		Version="0.1.1.0"
+		Publisher="CN=AlphaGlyph"
+		Uri="file:///C:/Users/Admin/Desktop/MCStore_0.1.1.0_Test/MCStore_0.1.1.0_AnyCPU.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

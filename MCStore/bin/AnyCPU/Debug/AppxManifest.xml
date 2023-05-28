@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap build" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    DIESE PAKETMANIFESTDATEI WIRD DURCH DEN BUILDVORGANG GENERIERT.
+
+    Änderungen an dieser Datei gehen verloren, wenn sie erneut erstellt wird. Um Fehler in dieser Datei zu beheben, bearbeiten Sie die ".appxmanifest"-Quelldatei.
+
+    Weitere Informationen zu Paketmanifestdateien finden Sie unter http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="dc19c392-3f11-4d26-81c3-58359eb6d581" Publisher="CN=Admin" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>MCStore</DisplayName>
+    <PublisherDisplayName>Admin</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.20348.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.20348.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="DE-DE" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="MultiTool3\MultiTool3.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="MCStore" Description="MCStore" BackgroundColor="transparent" Square150x150Logo="Images\Square150x150Logo.png" Square44x44Logo="Images\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="Images\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.6.36265.37517" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
+    <build:Item Name="OperatingSystem" Version="10.0.19041.2965 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.6.36389.36139" />
+    <build:Item Name="ProjectGUID" Value="d0a27f39-d29e-4de4-a119-92c357703b64" />
+    <build:Item Name="makepri.exe" Version="10.0.22621.755 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>
