@@ -5,8 +5,6 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTool3", "MultiTool3\MultiTool3.csproj", "{B80643B3-C698-4669-87E6-AF2649EC7E08}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{3169A85A-4193-4D48-B196-6E290AC4228C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,16 +39,6 @@ Global
 		{B80643B3-C698-4669-87E6-AF2649EC7E08}.Release|x64.Build.0 = Release|Any CPU
 		{B80643B3-C698-4669-87E6-AF2649EC7E08}.Release|x86.ActiveCfg = Release|Any CPU
 		{B80643B3-C698-4669-87E6-AF2649EC7E08}.Release|x86.Build.0 = Release|Any CPU
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Debug|Any CPU.ActiveCfg = Debug
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Debug|ARM.ActiveCfg = Debug
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Debug|ARM64.ActiveCfg = Debug
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Debug|x64.ActiveCfg = Debug
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Debug|x86.ActiveCfg = Debug
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Release|Any CPU.ActiveCfg = Release
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Release|ARM.ActiveCfg = Release
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Release|ARM64.ActiveCfg = Release
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Release|x64.ActiveCfg = Release
-		{3169A85A-4193-4D48-B196-6E290AC4228C}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
